@@ -19,7 +19,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
   - `ukf.cpp` - initializes the filter, calls the predict function, calls the update function, defines the predict function, the update function for lidar, and the update function for radar
   - `tools.cpp` - a function to calculate RMSE
 - `data`  a directory with two input files, provided by Udacity
-- `results`  a directory with output and log files
+- `result`  a directory with output and log files
 - `Docs` a directory with files formats description
 - `ide_profiles`
 - `CMakeLists.txt`
@@ -27,7 +27,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 - `writeup_template.md` for submission of this Project
 
 ## Result
-The RMSE values for Dataset_1 are below the RMSE values given [x: 0.9; y: 0.10; vx: 0.40; vy: 0.30] by the rubic poinst. 
+The RMSE values for Dataset_1 are below the RMSE values given by the rubic poinst [x: 0.9; y: 0.10; vx: 0.40; vy: 0.30] . 
 Compared to the achieved RMSE values of the Extended Kalman Filter Project, especially the RMSE of the vx and vy values ar 
 e lowered. 
 
