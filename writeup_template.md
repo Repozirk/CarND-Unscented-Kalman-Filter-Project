@@ -26,7 +26,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 - `README.md` Description of the Project by Udacity
 - `writeup_template.md` for submission of this Project
 
-##Result
+## Result
 The RMSE values for Dataset_1 are below the RMSE values given [x: 0.9; y: 0.10; vx: 0.40; vy: 0.30] by the rubic poinst. 
 Compared to the achieved RMSE values of the Extended Kalman Filter Project, especially the RMSE of the vx and vy values ar 
 e lowered. 
@@ -53,6 +53,7 @@ Space for Improvement:
 As suggested in the lessons for the Unscented Kalman Filter, I tried to compute the percentage of NIS-value higher then 7.815 for Radar and 5.991 for Lidar. Sadly I always got a error I could not fix by the "Eigen"-Function-Block. My suggestion to get the percentage was, counting all the measurements higher then the specific NIS value und put these values in relation to the number of measurements. 
 The NIS values of ever measurement are calculated in the Update-Function.
 `NIS_laser_ = z_diff.transpose() * S.inverse() * z_diff;`
+
 `NIS_radar_ = z_diff.transpose() * S.inverse() * z_diff;`
 
 
