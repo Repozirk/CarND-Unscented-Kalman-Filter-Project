@@ -28,8 +28,7 @@ The project was created with the Udacity [Starter Code](https://github.com/udaci
 
 ## Result
 The RMSE values for Dataset_1 are below the RMSE values given by the rubic poinst [x: 0.9; y: 0.10; vx: 0.40; vy: 0.30] . 
-Compared to the achieved RMSE values of the Extended Kalman Filter Project, especially the RMSE of the vx and vy values ar 
-e lowered. 
+Compared to the achieved RMSE values of the Extended Kalman Filter Project, especially the RMSE of the vx and vy values are lowered. 
 
 
 Dataset_1: `RMSE: [x: 0.0798; y: 0.0861; vx: 0.3670; vy: 0.2746]`
